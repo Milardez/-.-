@@ -67,11 +67,35 @@ padding: 40px 0 0 40px }
 
 	color: #ffffff;
 	text-decoration: none;
-	
+
 
 }
 
+.container {
+	background: white;
+	width: 390px;
+	height:399px;
+}
+.text-class {
+	color: #656e74;
+	font-size: 14px;	 
+
+}
+
+.link-class {
+color:#fd634e;
+font-size: 14px;
+
+}
+
+.h3-class {
+	color: #fd634e;
+	font-size: 14px;
+}
+.h2-class {
+	color:#fd634e;
+	font-size:35px;
+	text-transform: uppercase;
 
 
-
- }
+}
