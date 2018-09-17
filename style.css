@@ -109,6 +109,7 @@ font-size: 14px;
 	color: #fd634e;
 	font-size: 14px;
 	text-align: center;
+	text-transform: uppercase;
 }
 .h2-class {
 	color:#a2ca28;
@@ -139,6 +140,7 @@ background: white;
 .h3-class2 {
     color: #fd634e;
 	font-size: 14px;
+	text-transform: uppercase;
 	text-align: center;
 
 
