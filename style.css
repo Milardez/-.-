@@ -8,7 +8,7 @@
  .background-image { background-image: url("images/background.jpg");
 height: 800px;
 background-repeat: no-repeat;
-background-size: contain; }
+background-size: cover; }
 
 .menu {
  	display: flex;
@@ -49,7 +49,6 @@ background-size: contain; }
  .main-page{
  	background: #a2ca28;
 
-
  }
 
  .block
@@ -57,14 +56,13 @@ background-size: contain; }
   display: flex;
   list-style: none;
   width: 1150px;
- justify-content: space-around;
- color: #ffffff;
- font-size: 14px;
- margin: 0 auto;
+  justify-content: space-around;
+  color: #ffffff;
+  font-size: 14px;
+  margin: 0 auto;
  }
 
-
-.block-link {
+ .block-link {
 
 	color: #ffffff;
 	text-decoration: none;
@@ -72,18 +70,17 @@ background-size: contain; }
 }
 
 .section {
-display: flex;
-width: 1180px;
-margin: 0 auto;
-
+  display: flex;
+  width: 1180px;
+  margin: 0 auto;
 
 }
 
 .square {
-	background: white;
-	width: 390px;
-	padding: 50px 40px 80px 40px;
-	text-align: center;
+  background: white;
+   width: 390px;
+   padding: 50px 40px 80px 40px;
+   text-align: center;
 
 }
 
