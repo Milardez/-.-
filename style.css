@@ -52,23 +52,19 @@ background-size: contain; }
 
  }
 
- .main-menu
+ .block
   {
   display: flex;
   list-style: none;
-  width: 1150px;
- justify-content: space-between;
+  width: 1180px;
+ justify-content: space-around;
  color: #ffffff;
  font-size: 14px;
+ margin: 0 auto;
  }
 
 
- .block{
-
- 	margin: auto 0;
- }
-
-.main-menu-link {
+.block-link {
 
 	color: #ffffff;
 	text-decoration: none;
