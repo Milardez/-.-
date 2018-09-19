@@ -1,4 +1,6 @@
 
+
+
 .header{ display: flex;
 	justify-content: space-between;
 	padding: 30px 20px;
@@ -114,9 +116,6 @@ font-size: 14px;
 
 
 
-.main-subtitle {
-	font-family: 'Open Sans', sans-serif;
-}
 
 
 
