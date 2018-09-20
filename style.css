@@ -1,9 +1,57 @@
 
+@font-face {
+	src: url ('./fonts/AvenirNextCyr-Regular.woff');
+	font-family: AvenirNext;
+	font-weight: 400;
+}
+
+@font-face {
+	src: url ('./fonts/AvenirNextCyr-Light.ttf');
+	font-family: AvenirNext;
+	font-weight: 100;
+}
 
 
-.header{ display: flex;
+@font-face {
+	src: url('./fonts/OpenSans-Bold.ttf');
+	font-family:OpenSans;
+	font-weight:700;
+}
+
+
+@font-face {
+	src: url('./fonts/OpenSans-Regular.ttf');
+	font-family:OpenSans;
+	font-weight:300;
+}
+
+@font-face {
+	src: url('./fonts/ProximaNova-Reg.otf');
+	font-family:ProximaNova;
+	font-weight:300;
+}
+
+
+@font-face {
+
+src: url('.fonts/Montserrat-Regular.ttf');
+	font-family:Montserrat;
+	font-weight:300;
+
+
+	}
+
+
+	@font-face {
+	src: url('./fonts/OpenSans-Light.ttf');
+	font-family:OpenSans;
+	font-weight:100;
+}
+
+ .header{ display: flex;
 	justify-content: space-between;
 	padding: 30px 20px;
+	font-family: AvenirNext, sans-serif;
 
 }
 
@@ -17,6 +65,7 @@ background-size: cover; }
  	width: 500px;
  	list-style: none;
  	justify-content: space-between; 
+ 	font-family: AvenirNext, sans-serif;
 
 } 
 
@@ -24,12 +73,12 @@ background-size: cover; }
  color: #ffffff;
  font-size: 13px;
  text-transform: uppercase; 
+
  }
 
  .menu-link {
  	color: #ffffff;
  	text-decoration: none;
-
 
 
  }
@@ -39,6 +88,8 @@ background-size: cover; }
 	font-size:40px;
    text-transform: uppercase;
    margin: 400px 100px 0 0;
+   font-family: AvenirNext, sans-serif;;
+   font-weight: 100;
 
  }
  .subtitle{ 
@@ -46,6 +97,7 @@ background-size: cover; }
  	font-size:15px;
  	text-transform: uppercase;
  	margin: 5px 0 0 30px;
+ 	font-family: OpenSans,sans-serif;
 
  }
  .main-page{
@@ -64,10 +116,28 @@ background-size: cover; }
   margin: 0 auto;
  }
 
+ .block-subtitle {
+
+ 	font-family: OpenSans,sans-serif;
+ 	font-weight: 300;
+
+ }
+
+ .block-text {
+  
+  font-family:ProximaNova,sans-serif;
+  font-weight:300;
+
+ }
+
+
+
  .block-link {
 
 	color: #ffffff;
 	text-decoration: none;
+	font-family: ProximaNova,sans-serif;
+    font-weight:300;
 
 }
 
@@ -91,12 +161,16 @@ background-size: cover; }
 	color: #656e74;
 	font-size: 14px;
 	text-align: center;	 
+	font-family:OpenSans;
+	font-weight:300;
 
 }
 
 .link-class {
 color:#a2ca28;
 font-size: 14px;
+font-family:OpenSans;
+font-weight:300;
 
 }
 
@@ -105,12 +179,16 @@ font-size: 14px;
 	font-size: 14px;
 	text-align: center;
 	text-transform: uppercase;
+	font-family:Montserrat, sans-serif;
+	font-weight:300;
 }
 .h2-class {
 	color:#a2ca28;
 	font-size:35px;
 	text-transform: uppercase;
 	text-align: center;
+	font-family:OpenSans;
+	font-weight:100;
 
 }
 
