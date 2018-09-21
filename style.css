@@ -149,7 +149,7 @@ background-size: cover; }
 }
 
 .square {
-  background: white;
+   background: white;
    width: 390px;
    padding: 50px 40px 80px 40px;
    text-align: center;
@@ -191,10 +191,67 @@ font-weight:300;
 	font-weight:100;
 
 }
+.footer {
+	background: #0d1119;	
+	
+}
+
+.footer-container {
+
+	display: flex;
+	justify-content: space-between;
+    list-style: none;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.form {
+ margin: 15px 0 0 0;
+
+}
+
+.input{
+    border: 1px, solid gray;
+	padding: 10px 15px;
+	color:gray;
+
+}
+
+.social-block {
+	display: flex;
+	justify-content: space-between;
+	width: 200px; 
+	list-style: none;
+	padding: 30px 20px;
+	
+
+}
+
+.button {
+	background: #a2ca28;
+	color: #ffffff;
+	padding: 10px 15px;
+
+}
+
+.hover: before {
+	content: '';
+	display: block;
+	background: rgba(0, 0, 0, 50%);
+	width: 794px;
+	height: 394px;
+	position: absolute;
+
+}
+
+.hover {
+	position: relative;
+}
+
+.text-hover {
+
+position: absolute;
 
 
-
-
-
-
+}
 
