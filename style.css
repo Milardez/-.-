@@ -166,9 +166,10 @@ background-size: cover; }
  .text-class {
 	color: #656e74;
 	font-size: 14px;
-	text-align: center;	 
+	text-align: justify;	 
 	font-family:OpenSans;
 	font-weight:300;
+
 
 }
 
@@ -177,6 +178,7 @@ color:#a2ca28;
 font-size: 14px;
 font-family:OpenSans;
 font-weight:300;
+padding: 0 0 40px;
 
 }
 
