@@ -248,7 +248,7 @@ padding: 0 0 40px;
 
 }
 
-.hover:before {
+.hover-img:before {
 	content: '';
 	display: block;
 	background: rgba(0, 0, 0, 50%);
@@ -260,7 +260,7 @@ padding: 0 0 40px;
 
 
 
-.hover {
+.hover-img{
 	position: relative;
 	height: 394px;
 
