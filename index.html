@@ -3,8 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Fitness</title>
+	<link rel="stylesheet" type="text/css" href="eric-meyer-reset.min_.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
 	<link rel="stylesheet"   href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	
 </head>
 <body>
 	<header class= "background-image">
@@ -41,26 +43,26 @@
 			<li>
 				<img src="images/icon1.svg" alt=""> 
 				<h2 class="block-subtitle"> Resources</h2>
-				<p>  Easly manage your inspiration and work-in-progress  by dragging images into projects and sharable client groups. Easily manage your inspiration and</p>
+				<p class="block-text">  Easly manage your inspiration and work-in-progress  by dragging images into projects and sharable client groups. Easily manage your inspiration and</p>
 				<a href="" class="block-link"> Explore more </a>
 			</li>
 
 			<li> 
 				<img src="images/icon2.svg" alt="">
 				<h2 class="block-subtitle"> Training and funding</h2>
-				<p>Easly manage your inspiration and wor-in-progress  by dragging images into projects and sharable client groups.</p>
+				<p class="block-text">Easly manage your inspiration and wor-in-progress  by dragging images into projects and sharable client groups.</p>
 				<a href=""class="block-link">Browse Training</a>
 			</li>
 			<li>
 				<img src="images/icon3.svg" alt=""> 
 				<h2 class="block-subtitle"> Connect</h2>
-				<p>  Easly manage your inspiration and wor-in-progress  by dragging images into projects and sharable client groups. Easily manage your inspiration</p>
+				<p class="block-text">  Easly manage your inspiration and wor-in-progress  by dragging images into projects and sharable client groups. Easily manage your inspiration</p>
 				<a href=""class="block-link"> Connect now </a>
 			</li>
 			<li> 
 				<img src="images/icon4.svg" alt="">
 				<h2 class="block-subtitle">Communicate</h2>
-				<p>Easly manage your inspiration and wor-in-progress  by dragging images into projects and sharable client groups. Easily</p>
+				<p class="block-text">Easly manage your inspiration and wor-in-progress  by dragging images into projects and sharable client groups. Easily</p>
 				<a href=""class="block-link"> Start now</a>
 
 			</li>
@@ -71,19 +73,25 @@
 			<div class="square">
 			<h3 class="h3-class"> It's all About</h3>
 			<h2 class="h2-class"> Fitness First </h2>
-			<img src="images/icon5.svg" height="50">
+			 <img src="images/icon5.svg" height="50">                                    
 			<p class="text-class">Lorem ipsum dolor sit amet, consectetur adipicising elit,sed do eiusmod tempor incididunt ut labore at dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
 			<a href="" class="link-class">Read more </a>
 		</div>
-		<img src="images/img1.jpg" alt="">
+
+		 <div class="hover-img"><img src="images/img1.jpg" alt=""> 
+		 <div class="hover-title"><h2 class="text-hoverh2"> Fitness First </h2>
+		 	  <h3 class="text-hoverh3"> It's all about </h3></div>
+		 </div>
 		</section>
 
          <section class="section">
-		<img src="images/img2.jpg" alt="">
-
-		<div class="square">
+		<div class="hover-img"><img src="images/img2.jpg" alt="">
+       <div class="hover-title"> <h3 class="text-hoverh3"> Love Your</h3>
+			 <h2 class="text-hoverh2"> Your Body </h2></div>
+			</div>
+		<div class="square">  
 			<h3 class="h3-class"> Love Your</h3>
-			<h2 class="h2-class"> Your Body </h2>
+			<h2 class="h2-class"> Your Body</h2>
 			<img src="images/icon5.svg" alt="" height="50">
 			<p class="text-class">Lorem ipsum dolor sit amet, consectetur adipicising elit,sed do eiusmod tempor incididunt ut labore at dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
 			<a href="" class="link-class">Read more </a>
@@ -91,14 +99,16 @@
 		</section>
 
 	</main>
-	<footer> 
-		<form>
-			<input type="text" placeholder="Your Name">
-			<input type="text" placeholder=" Your Email">
-			<button>Join Newsletter </button>
+	<footer class="footer"> 
+		<div class="footer-container"> 
+        
+		<form class="form">
+			<input class="input" type="text" placeholder="Your Name">
+			<input class="input"type="text" placeholder=" Your Email">
+			<button class="button">Join Newsletter </button>
 		</form>
+		<ul class="social-block">
 
-		<ul>
 			<li> <a href=""> <img src="images/fb.png"> </a> </li>
 			<li><a href=""><img src="images/tw.png"> </a>    </li>
 			<li><a href=""> <img src="images/yt.png"> </a>  </li>
@@ -106,6 +116,7 @@
 
 
 		</ul>
+		</div>
 	</footer>
 
 
