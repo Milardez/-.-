@@ -49,20 +49,14 @@ src: url('./fonts/Montserrat-Regular.ttf');
 }
 
 
- @keyframes DropAnimation 
+ @keyframes Block-LinkAnimation 
  {  0% { transform: scale (1);
 
  }
  100% { transform: scale (2); }}
 
 
- .drop {                                  
-
- 	animation: DropAnimation 3s infinite; }
- 		
- 
-
-
+                                   
  .header{ display: flex;
 	justify-content: space-between;
 	padding: 40px 51px;
@@ -135,6 +129,10 @@ background-size: cover; }
  
  }
 
+ .block-image_container {
+ 	height: 60px;
+ }
+
  .block-subtitle {
 
  	font-family: OpenSans,sans-serif;
@@ -150,6 +148,10 @@ background-size: cover; }
   font-size: 14px;
   font-weight:300;
   padding: 27px 0 0 0;
+  max-width: 250px;
+  line-height: 2;
+  
+  }
 
 
  }
@@ -164,8 +166,8 @@ background-size: cover; }
 	 font-family: ProximaNova,sans-serif;
 	 font-size: 14px;
      font-weight:300;
-
-    
+     animation: Block-LinkAnimation 3s infinite;
+   
 
 }
 
