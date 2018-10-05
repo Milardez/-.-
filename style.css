@@ -48,9 +48,24 @@ src: url('./fonts/Montserrat-Regular.ttf');
 	font-weight:100;
 }
 
+
+ @keyframes DropAnimation 
+ {  0% { transform: scale (1);
+
+ }
+ 100% { transform: scale (2); }}
+
+
+ .drop {                                  
+
+ 	animation: DropAnimation 3s infinite; }
+ 		
+ 
+
+
  .header{ display: flex;
 	justify-content: space-between;
-	padding: 30px 20px;
+	padding: 40px 51px;
 	font-family: AvenirNext, sans-serif;
 
 }
@@ -87,7 +102,7 @@ background-size: cover; }
 	color: #ffffff;
 	font-size:40px;
    text-transform: uppercase;
-   margin: 400px 100px 0 40px;
+   margin: 557px 0px 0px 112px;
    font-family: AvenirNext, sans-serif;;
    font-weight: 100;
 
@@ -96,7 +111,7 @@ background-size: cover; }
  	color: #ffffff;
  	font-size:15px;
  	text-transform: uppercase;
- 	margin: 5px 0 0 40px;
+ 	margin: 6px 0px 0 279px;
  	font-family: OpenSans,sans-serif;
 
  }
@@ -125,7 +140,7 @@ background-size: cover; }
  	font-family: OpenSans,sans-serif;
  	font-size: 24px;
  	font-weight: 300;
- 	padding: 10px 0 0 0;
+    padding: 16px 0 0 0;
 
  }
 
@@ -134,7 +149,7 @@ background-size: cover; }
   font-family:ProximaNova,sans-serif;
   font-size: 14px;
   font-weight:300;
-  padding: 20px 0 0 0;
+  padding: 27px 0 0 0;
 
 
  }
