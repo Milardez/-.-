@@ -50,10 +50,10 @@ src: url('./fonts/Montserrat-Regular.ttf');
 
 
  @keyframes Block-LinkAnimation 
- {  0% { transform: scale (1);
+ {  0% { transform: scale(1);
 
  }
- 100% { transform: scale (2); }}
+ 100% { transform: scale(2); }}
 
 
                                    
@@ -65,9 +65,9 @@ src: url('./fonts/Montserrat-Regular.ttf');
 }
 
  .background-image { background-image: url("images/background.jpg");
-height: 800px;
-background-repeat: no-repeat;
-background-size: cover; }
+ height: 900px;
+ background-repeat: no-repeat;
+ background-size: cover; }
 
 .menu {
  	display: flex;
@@ -115,7 +115,7 @@ background-size: cover; }
  }
 
  .main-menu {
- 	padding: 40px 0;
+ 	    padding: 70px 0 69px;
  }
 
  .block
@@ -138,7 +138,7 @@ background-size: cover; }
  	font-family: OpenSans,sans-serif;
  	font-size: 24px;
  	font-weight: 300;
-    padding: 16px 0 0 0;
+    padding: 18px 0 0 0;
 
  }
 
@@ -152,9 +152,6 @@ background-size: cover; }
   line-height: 2;
   
   }
-
-
- }
 
 
  .block-link {
@@ -181,7 +178,7 @@ background-size: cover; }
  .square {
    background: white;
    width: 390px;
-   padding: 40px 40px 1px 40px;
+   padding: 35px 38px 3px 17px;
    text-align: center;
 
 }
@@ -189,7 +186,7 @@ background-size: cover; }
  .text-class {
 	color: #656e74;
 	font-size: 14px;
-	padding: 20px 0; 	 
+    padding: 20px 0 59px; 	 
 	font-family:OpenSans;
 	font-weight:300;
 
@@ -211,7 +208,9 @@ padding: 0 0 40px;
 	text-transform: uppercase;
 	font-family:Montserrat, sans-serif;
 	font-weight:300;
+	padding: 19px 0 0 0px;
 }
+
   .h2-class {
 	color:#a2ca28;
 	font-size:35px;
@@ -219,7 +218,7 @@ padding: 0 0 40px;
 	text-align: center;
 	font-family:OpenSans;
 	font-weight:100;
-	padding:10px 0 0;
+	    padding: 9px 0 0 2px;
 
 }
  .footer {
@@ -233,12 +232,14 @@ padding: 0 0 40px;
 	justify-content: space-between;
     list-style: none;
     width: 1180px;
-    margin: 0 auto;
+    margin: 0px 0 0 14px;
     box-sizing: border-box;
+     height: 157px;
+
 }
 
 .form {
- margin: 30px 0 0 0;
+     margin: 69px 0 36px 12px;
  
 }
 
@@ -248,6 +249,9 @@ padding: 0 0 40px;
 	color: #95a5ac;
 	font-size: 14px;
 	font-family: ProximaNova,sans-serif;
+     padding: 14px 43px;
+      width: 108px;
+
 
 
 }
@@ -255,12 +259,97 @@ padding: 0 0 40px;
 .social-block {
 	display: flex;
 	justify-content: space-between;
-	width: 200px; 
+	width: 229px; 
 	list-style: none;
-	padding: 30px 20px 40px;
+	padding: 62px 85px 45px;
 	
 
 }
+
+
+
+.icon {
+
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: relative;
+
+}
+
+ .icon:before {
+ 	content: '';
+ 	display: block;
+ 	position: absolute;
+ 	width: 100%;
+ 	text-align: center;
+    
+ }
+
+ .icon-fb {
+ 	background: #2e3192;
+ }
+
+ .icon-tw {
+ 	background: #00aeef;
+ }
+
+ .icon-yt {
+ 	background: #ed3123;
+ }
+
+ .icon-ln {
+ 	background: #171a8f;
+ }
+
+ .icon-fb:before {
+ 	background-image: url("images/fb.png");
+ 	width: 25px;
+ 	height: 25px;
+ 	background-size: 25px 25px;
+ 	top: 50%;
+ 	margin-top: -13px;
+ 	left:50%;
+ 	margin-left: -13px;
+
+ }
+
+ .icon-tw:before {
+ 	background-image: url("images/tw.png");
+ 	width: 25px;
+ 	height: 25px;
+ 	background-size: 25px 25px;
+ 	top: 50%;
+ 	margin-top: -13px;
+ 	left:50%;
+ 	margin-left: -13px;
+
+ }
+
+ .icon-yt:before {
+ 	background-image: url("images/yt.png");
+ 	width: 25px;
+ 	height: 25px;
+ 	background-size: 25px 25px;
+ 	top: 50%;
+ 	margin-top: -13px;
+ 	left:50%;
+ 	margin-left: -13px;
+
+ }
+
+.icon-ln:before {
+	background-image: url("images/ln.png");
+ 	width: 25px;
+ 	height: 25px;
+ 	background-size: 25px 25px;
+ 	top: 50%;
+ 	margin-top: -13px;
+ 	left:50%;
+ 	margin-left: -13px;
+
+}
+
 
 .button {
 	background: #a2ca28;
@@ -268,6 +357,8 @@ padding: 0 0 40px;
 	padding: 11px 15px;
 	font-size: 14px;
 	font-family: ProximaNova,sans-serif;
+	padding: 15px 42px;
+	width: 186px;
 
 
 }
