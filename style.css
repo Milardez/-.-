@@ -115,7 +115,7 @@ src: url('./fonts/Montserrat-Regular.ttf');
  }
 
  .main-menu {
- 	    padding: 70px 0 69px;
+ 	      padding: 108px 0 71px;
  }
 
  .block
@@ -138,7 +138,7 @@ src: url('./fonts/Montserrat-Regular.ttf');
  	font-family: OpenSans,sans-serif;
  	font-size: 24px;
  	font-weight: 300;
-    padding: 18px 0 0 0;
+    padding: 2px 0 0 0;
 
  }
 
@@ -170,7 +170,7 @@ src: url('./fonts/Montserrat-Regular.ttf');
 
  .section {
   display: flex;
-  width: 1180px;
+  width: 1184px;
   margin: 0 auto;
 
 }
@@ -185,10 +185,11 @@ src: url('./fonts/Montserrat-Regular.ttf');
 
  .text-class {
 	color: #656e74;
-	font-size: 14px;
-    padding: 20px 0 59px; 	 
+	font-size: 14px;   	 
 	font-family:OpenSans;
 	font-weight:300;
+	line-height: 2;
+	padding: 26px 26px 61px 45px;
 
 }
 
@@ -197,7 +198,7 @@ color:#a2ca28;
 font-size: 14px;
 font-family:OpenSans;
 font-weight:300;
-padding: 0 0 40px;
+ padding: 0px 0px 43px 17px;
 
 }
 
@@ -218,7 +219,7 @@ padding: 0 0 40px;
 	text-align: center;
 	font-family:OpenSans;
 	font-weight:100;
-	    padding: 9px 0 0 2px;
+	padding: 9px 0px 8px 26px;
 
 }
  .footer {
@@ -249,19 +250,30 @@ padding: 0 0 40px;
 	color: #95a5ac;
 	font-size: 14px;
 	font-family: ProximaNova,sans-serif;
-     padding: 14px 43px;
-      width: 108px;
+     padding: 14px 44px 13px 27px;
+     width: 134px; }
 
 
+
+.input2 {
+
+	border: 1px solid gray;
+	padding: 10px 15px;
+	color: #95a5ac;
+	font-size: 14px;
+	font-family: ProximaNova,sans-serif;
+     padding: 14px 46px;
+      width: 263px;
 
 }
+
 
 .social-block {
 	display: flex;
 	justify-content: space-between;
 	width: 229px; 
 	list-style: none;
-	padding: 62px 85px 45px;
+	 padding: 64px 53px 45px;
 	
 
 }
@@ -357,7 +369,7 @@ padding: 0 0 40px;
 	padding: 11px 15px;
 	font-size: 14px;
 	font-family: ProximaNova,sans-serif;
-	padding: 15px 42px;
+	padding: 16px 42px;
 	width: 186px;
 
 
