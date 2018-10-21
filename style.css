@@ -189,16 +189,19 @@ src: url('./fonts/Montserrat-Regular.ttf');
 	font-family:OpenSans;
 	font-weight:300;
 	line-height: 2;
-	padding: 26px 26px 61px 45px;
-
+	padding: 26px 13px 2px 11px;
 }
+
+
+
+
 
  .link-class {
 color:#a2ca28;
 font-size: 14px;
 font-family:OpenSans;
 font-weight:300;
- padding: 0px 0px 43px 17px;
+ padding: 0px 15px 0px 17px;
 
 }
 
@@ -209,7 +212,7 @@ font-weight:300;
 	text-transform: uppercase;
 	font-family:Montserrat, sans-serif;
 	font-weight:300;
-	padding: 19px 0 0 0px;
+	padding: 19px 14px 1px 0px;
 }
 
   .h2-class {
@@ -219,9 +222,12 @@ font-weight:300;
 	text-align: center;
 	font-family:OpenSans;
 	font-weight:100;
-	padding: 9px 0px 8px 26px;
-
+	padding: 4px 42px 8px 44px;
 }
+
+
+
+
  .footer {
 	background: #0d1119;	
 	
@@ -244,7 +250,7 @@ font-weight:300;
  
 }
 
-.input{
+.input {
     border: 1px solid gray;
 	padding: 10px 15px;
 	color: #95a5ac;
@@ -273,7 +279,7 @@ font-weight:300;
 	justify-content: space-between;
 	width: 229px; 
 	list-style: none;
-	 padding: 64px 53px 45px;
+	 padding: 65px 16px 50px;
 	
 
 }
@@ -316,8 +322,8 @@ font-weight:300;
 
  .icon-fb:before {
  	background-image: url("images/fb.png");
- 	width: 25px;
- 	height: 25px;
+ 	width: 47px;
+    height: 50px;
  	background-size: 25px 25px;
  	top: 50%;
  	margin-top: -13px;
@@ -328,8 +334,8 @@ font-weight:300;
 
  .icon-tw:before {
  	background-image: url("images/tw.png");
- 	width: 25px;
- 	height: 25px;
+ 	width: 47px;
+    height: 50px;
  	background-size: 25px 25px;
  	top: 50%;
  	margin-top: -13px;
@@ -340,8 +346,8 @@ font-weight:300;
 
  .icon-yt:before {
  	background-image: url("images/yt.png");
- 	width: 25px;
- 	height: 25px;
+ 	width: 47px;
+    height: 50px;
  	background-size: 25px 25px;
  	top: 50%;
  	margin-top: -13px;
@@ -352,8 +358,8 @@ font-weight:300;
 
 .icon-ln:before {
 	background-image: url("images/ln.png");
- 	width: 25px;
- 	height: 25px;
+ 	width: 47px;
+    height: 50px;
  	background-size: 25px 25px;
  	top: 50%;
  	margin-top: -13px;
