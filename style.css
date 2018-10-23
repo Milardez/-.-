@@ -49,13 +49,31 @@ src: url('./fonts/Montserrat-Regular.ttf');
 }
 
 
- @keyframes Block-LinkAnimation 
- {  0% { transform: scale(1);
 
- }
- 100% { transform: scale(2); }}
+ @keyframes pulse-BlockLinkAnimation {
+  from {
+    transform: scale3d(1, 1, 1);
+  
+   
+  }
 
+  50% {
+   transform: scale3d(3, 3, 3);
+   transform:rotateZ(-10deg);
+  }
 
+  to {
+    transform: scale3d(4, 4, 4);
+    transform:rotateY(20deg);
+    
+  }
+}
+
+.pulse {
+  animation: pulse-BlockLinkAnimation 3s infinite;}
+
+  .block-link.pulse:hover { 
+  	animation: pulse-BlockLinkAnimation 3s infinite; }
                                    
  .header{ display: flex;
 	justify-content: space-between;
@@ -163,7 +181,7 @@ src: url('./fonts/Montserrat-Regular.ttf');
 	 font-family: ProximaNova,sans-serif;
 	 font-size: 14px;
      font-weight:300;
-     animation: Block-LinkAnimation 3s infinite;
+     
    
 
 }
