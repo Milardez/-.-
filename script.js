@@ -1,6 +1,7 @@
 
 var X ;
 var Y ;
-prompt ( X= 7, Y= 15);
-var SUM = 22;
-alert ( "22");
+var value = prompt ("Задайте величину X и Y");
+console.log (value);
+var SUM = X + Y; 
+alert(SUM);
