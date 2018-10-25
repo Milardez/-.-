@@ -48,17 +48,41 @@ src: url('./fonts/Montserrat-Regular.ttf');
 	font-weight:100;
 }
 
+
+
+ @keyframes pulse-BlockLinkAnimation {
+  from {
+    transform: scale3d(1, 1, 1);
+  
+   
+  }
+
+  50% {
+   transform: scale3d(3, 3, 3);
+   transform:rotateZ(-10deg);
+  }
+
+  to {
+    transform: scale3d(4, 4, 4);
+    transform:rotateY(20deg);
+    
+  }
+}
+
+  .pulse:hover { 
+  	animation: pulse-BlockLinkAnimation 3s infinite; }
+                                   
  .header{ display: flex;
 	justify-content: space-between;
-	padding: 30px 20px;
+	padding: 40px 51px;
 	font-family: AvenirNext, sans-serif;
 
 }
 
  .background-image { background-image: url("images/background.jpg");
-height: 800px;
-background-repeat: no-repeat;
-background-size: cover; }
+ height: 900px;
+ background-repeat: no-repeat;
+ background-size: cover; }
 
 .menu {
  	display: flex;
@@ -87,7 +111,7 @@ background-size: cover; }
 	color: #ffffff;
 	font-size:40px;
    text-transform: uppercase;
-   margin: 400px 100px 0 40px;
+   margin: 557px 0px 0px 112px;
    font-family: AvenirNext, sans-serif;;
    font-weight: 100;
 
@@ -96,7 +120,7 @@ background-size: cover; }
  	color: #ffffff;
  	font-size:15px;
  	text-transform: uppercase;
- 	margin: 5px 0 0 40px;
+ 	margin: 6px 0px 0 279px;
  	font-family: OpenSans,sans-serif;
 
  }
@@ -106,7 +130,7 @@ background-size: cover; }
  }
 
  .main-menu {
- 	padding: 40px 0;
+ 	      padding: 108px 0 71px;
  }
 
  .block
@@ -120,12 +144,16 @@ background-size: cover; }
  
  }
 
+ .block-image_container {
+ 	height: 60px;
+ }
+
  .block-subtitle {
 
  	font-family: OpenSans,sans-serif;
  	font-size: 24px;
  	font-weight: 300;
- 	padding: 10px 0 0 0;
+    padding: 2px 0 0 0;
 
  }
 
@@ -134,10 +162,11 @@ background-size: cover; }
   font-family:ProximaNova,sans-serif;
   font-size: 14px;
   font-weight:300;
-  padding: 20px 0 0 0;
-
-
- }
+  padding: 27px 0 0 0;
+  max-width: 250px;
+  line-height: 2;
+  
+  }
 
 
  .block-link {
@@ -149,14 +178,14 @@ background-size: cover; }
 	 font-family: ProximaNova,sans-serif;
 	 font-size: 14px;
      font-weight:300;
-
-    
+     
+   
 
 }
 
  .section {
   display: flex;
-  width: 1180px;
+  width: 1184px;
   margin: 0 auto;
 
 }
@@ -164,26 +193,30 @@ background-size: cover; }
  .square {
    background: white;
    width: 390px;
-   padding: 40px 40px 1px 40px;
+   padding: 35px 38px 3px 17px;
    text-align: center;
 
 }
 
  .text-class {
 	color: #656e74;
-	font-size: 14px;
-	padding: 20px 0; 	 
+	font-size: 14px;   	 
 	font-family:OpenSans;
 	font-weight:300;
-
+	line-height: 2;
+	padding: 26px 13px 2px 11px;
 }
+
+
+
+
 
  .link-class {
 color:#a2ca28;
 font-size: 14px;
 font-family:OpenSans;
 font-weight:300;
-padding: 0 0 40px;
+ padding: 0px 15px 0px 17px;
 
 }
 
@@ -194,7 +227,9 @@ padding: 0 0 40px;
 	text-transform: uppercase;
 	font-family:Montserrat, sans-serif;
 	font-weight:300;
+	padding: 19px 14px 1px 0px;
 }
+
   .h2-class {
 	color:#a2ca28;
 	font-size:35px;
@@ -202,9 +237,12 @@ padding: 0 0 40px;
 	text-align: center;
 	font-family:OpenSans;
 	font-weight:100;
-	padding:10px 0 0;
-
+	padding: 4px 42px 8px 44px;
 }
+
+
+
+
  .footer {
 	background: #0d1119;	
 	
@@ -215,34 +253,140 @@ padding: 0 0 40px;
 	display: flex;
 	justify-content: space-between;
     list-style: none;
-    width: 1000px;
+    width: 1180px;
     margin: 0 auto;
+    box-sizing: border-box;
+     height: 157px;
+
 }
 
 .form {
- margin: 30px 0 0 0;
+     margin: 69px 0 36px 12px;
  
 }
 
-.input{
+.input {
     border: 1px solid gray;
 	padding: 10px 15px;
 	color: #95a5ac;
 	font-size: 14px;
 	font-family: ProximaNova,sans-serif;
+     padding: 14px 44px 13px 27px;
+     width: 134px; }
 
+
+
+.input2 {
+
+	border: 1px solid gray;
+	padding: 10px 15px;
+	color: #95a5ac;
+	font-size: 14px;
+	font-family: ProximaNova,sans-serif;
+     padding: 14px 46px;
+      width: 263px;
 
 }
+
 
 .social-block {
 	display: flex;
 	justify-content: space-between;
-	width: 200px; 
+	width: 229px; 
 	list-style: none;
-	padding: 30px 20px 40px;
+	 padding: 65px 16px 50px;
 	
 
 }
+
+
+
+.icon {
+
+	width: 54px;
+    height: 52px;
+	border-radius: 50%;
+	position: relative;
+
+}
+
+ .icon:before {
+ 	content: '';
+ 	display: block;
+ 	position: absolute;
+ 	width: 100%;
+ 	text-align: center;
+    
+ }
+
+ .icon-fb {
+ 	background: #2e3192;
+ }
+
+ .icon-tw {
+ 	background: #00aeef;
+ }
+
+ .icon-yt {
+ 	background: #ed3123;
+ }
+
+ .icon-ln {
+ 	background: #171a8f;
+ }
+
+ .icon-fb:before {
+ 	background-image: url("images/fb.png");
+ 	background-repeat: no-repeat; 
+ 	width: 22px;
+    height: 47px;
+ 	background-size: 25px 25px;
+ 	top: 50%;
+ 	margin-top: -13px;
+ 	left:50%;
+ 	margin-left: -13px;
+
+ }
+
+ .icon-tw:before {
+ 	background-image: url("images/tw.png");
+ 	background-repeat: no-repeat; 
+ 	width: 25px;
+    height: 45px;
+ 	background-size: 25px 25px;
+ 	top: 50%;
+ 	margin-top: -13px;
+ 	left:50%;
+ 	margin-left: -13px;
+
+ }
+
+ .icon-yt:before {
+ 	background-image: url("images/yt.png");
+ 	background-repeat: no-repeat; 
+ 	width: 27px;
+    height: 30px;
+ 	background-size: 25px 25px;
+ 	top: 50%;
+ 	margin-top: -13px;
+ 	left:50%;
+ 	margin-left: -13px;
+
+ }
+
+.icon-ln:before {
+	background-image: url("images/ln.png");
+	background-repeat: no-repeat; 
+ 	width: 26px;
+    height: 34px;
+ 	background-size: 25px 25px;
+ 	top: 50%;
+ 	margin-top: -13px;
+ 	left:50%;
+ 	margin-left: -13px;
+
+}
+
 
 .button {
 	background: #a2ca28;
@@ -250,19 +394,23 @@ padding: 0 0 40px;
 	padding: 11px 15px;
 	font-size: 14px;
 	font-family: ProximaNova,sans-serif;
+	padding: 16px 42px;
+	width: 186px;
 
 
 }
 
 .hover-img:before {
 	content: '';
-	display: block;
+	opacity: 0;
 	background: rgba(0, 0, 0, 50%);
 	width: 794px;
 	height: 394px;
 	position: absolute;
+	transition: all 2s;
 
 }
+
 
 
 
@@ -270,8 +418,27 @@ padding: 0 0 40px;
 	position: relative;
 	height: 394px;
 
-
 }
+
+ .section :hover.hover-title {
+ 	opacity: 1;
+ }
+
+ .hover-img:hover:before {
+ 	opacity: 1;
+ }
+
+.hover-title { position: absolute;
+	 text-align: center;
+	 width: 100%;
+	 top: 50%;
+	 margin-top: -35px;
+	 opacity: 0;
+	 transition: all 2s;
+
+	}
+
+
 
 .text-hoverh2 {
 
@@ -298,10 +465,5 @@ text-transform: uppercase;
 }
 
 
-.hover-title { position: absolute;
-	 text-align: center;
-	 left: 270px;
-     top:160px;
 
-}
 
