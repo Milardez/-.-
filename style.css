@@ -69,10 +69,7 @@ src: url('./fonts/Montserrat-Regular.ttf');
   }
 }
 
-.pulse {
-  animation: pulse-BlockLinkAnimation 3s infinite;}
-
-  .block-link.pulse:hover { 
+  .pulse:hover { 
   	animation: pulse-BlockLinkAnimation 3s infinite; }
                                    
  .header{ display: flex;

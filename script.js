@@ -1,7 +1,9 @@
 
 var X ;
 var Y ;
-var value = prompt ("Задайте величину X и Y");
-console.log (value);
+X= prompt ("Задайте величину X");
+console.log(X);
+Y= prompt ("Задайте величину Y");
+console.log (Y);
 var SUM = X + Y; 
 alert(SUM);
