@@ -262,7 +262,18 @@ font-weight:300;
 
 .form {
      margin: 69px 0 36px 12px;
+
  
+}
+
+.form:before {
+	content: '';
+	dispay: block;
+	 width: 1180px;
+	 height: 157px;
+	 background: #ffffff, 70%;
+	 position: fixed;
+
 }
 
 .input {
