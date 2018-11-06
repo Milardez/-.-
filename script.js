@@ -32,17 +32,22 @@ yourEmail.style.border = '2px solid red';
 	console.log('Введите действительный email');
 } else {
 	yourEmail.style.border = '1px solid gray';
-} }
+} 
 
-var thankyoumessage = document.getElementById('thankyoumessage');
-console.log (thankyoumessage);
+if (valueyourname !== '' && valueyourEmail !== '') {
+  hideMessage();
+}
+}
 
-thankyoumessage.addEventListener ('submit', checkEvent);
+function hideMessage(){
+ var thankyoumessage = document.getElementById('thankyoumessage');
+ console.log (thankyoumessage);
+ thankyoumessage.style.display = "none";
+}                                   
 
-function checkEvent(event){
-
-if ('submit') { 
-event.thankyoumessage();
-thankyoumessage.style.display = " "}                                   
-
+if (valueyourname != 'name' && valueyourEmail != 'email') {
+	var thankyoumessage = document.getElementById('thankyoumessage');
+ console.log (thankyoumessage);
+ thankyoumessage.style.display = "block";
+ alert ('Спасибо, Ваше сообщение отправлено');}
 
