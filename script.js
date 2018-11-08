@@ -37,16 +37,23 @@ yourEmail.style.border = '2px solid red';
 if (valueyourname !== '' && valueyourEmail !== '') {
   hideMessage();
 }
-}
+
 
 function hideMessage(){
  var thankyoumessage = document.getElementById('thankyoumessage');
  console.log (thankyoumessage);
  thankyoumessage.style.display = "none";
+
+ if (valueyourname !='name' && valueyourEmail != 'email'){
+ 	showMessage();
+ }
+
+ function showMessage(){
                                   
-	var thankyoumessage = document.getElementById('thankyoumessage');
+var thankyoumessage = document.getElementById('thankyoumessage');
  console.log (thankyoumessage);
+ thankyoumessage.style.display = "block"
  alert ('Спасибо, Ваше сообщение отправлено');
- thankyoumessage.style.display = "block";
+ 
  }
 
