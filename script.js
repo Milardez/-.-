@@ -43,11 +43,10 @@ function hideMessage(){
  var thankyoumessage = document.getElementById('thankyoumessage');
  console.log (thankyoumessage);
  thankyoumessage.style.display = "none";
-}                                   
-
-if (valueyourname != 'name' && valueyourEmail != 'email') {
+                                  
 	var thankyoumessage = document.getElementById('thankyoumessage');
  console.log (thankyoumessage);
+ alert ('Спасибо, Ваше сообщение отправлено');
  thankyoumessage.style.display = "block";
- alert ('Спасибо, Ваше сообщение отправлено');}
+ }
 
